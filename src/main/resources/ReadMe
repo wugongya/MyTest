@@ -1,0 +1,21 @@
+本项目首次搭建是用于ssm简单功能
+1、ssm使用的数据库配置
+    jdbc.properties
+    1.1、ssm包含基本的数据库表CRUD
+    1.2、包含aop事务
+    1.3、自定义aop controller方法拦截
+        com.jie.common.OperationLogger
+        com.jie.common.SysLogAspect
+        com.jie.common.ClassParam
+    1.4、mybatis的一对多、一对一简单使用说明
+2、shiro入门级使用教程使用的数据库配置
+    jdbc_realm.ini
+    2.1、身份认证
+        2.1、读取配置的简单使用
+        例子:com.jie.shiro.ShiroHello.shiroHello
+        2.2、数据库用户读取 Realm&JDBC Reaml
+        例子:com.jie.shiro.ShiroJdbcTest
+    2.2、权限认证(授权)
+        2.2.1、编程式授权
+            2.2.1.1 基于角色的访问控制
+            2.2.1.2 基于权限的访问控制
